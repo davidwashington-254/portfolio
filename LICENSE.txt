@@ -1,0 +1,15 @@
+Custom Non-Commercial Use License - Copyright 2025 David Washington Kamau Kibe
+
+Permission is granted to use and modify this code, subject to the following conditions:
+
+1. **Non-Commercial Use**: This code may only be used for personal, educational, or non-commercial purposes. It may not be used for any commercial purpose, including selling, licensing, or any profit-driven activity.
+
+2. **No Redistribution**: Redistribution of the code, whether in original or modified form, is prohibited without express written permission from David Washington Kamau Kibe.
+
+3. **No Derivatives**: Users may not create derivative works based on this code.
+
+4. **Attribution**: Any use of this code, in original or modified form, must include appropriate credit to the original author(s). The attribution must include the name David Washington Kamau Kibe and a link to this repository (or the original code source).
+
+5. **No Warranty**: The code is provided "as-is," and the author(s) make no warranties or representations about its suitability for any particular purpose.
+
+By using or modifying this code, you agree to these terms and conditions.
