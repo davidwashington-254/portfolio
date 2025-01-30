@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" id="disabledLink"><img src="images/Logo.png" class="logo" alt="Logo"></a>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <div class="cv-link">
+                <a href="#" id="cvBtn">View CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="cvModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeBtn">&times;</span>
+            <iframe src="pdf/David Kibe CV.pdf" frameborder="0" title="Beige Minimalist Portfolio"></iframe>
+        </div>
+    </div>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1>Hello, I'm <span>David Washington Kamau</span></h1>
+            <p>Full Stack Web Developer | Problem Solver | Tech Enthusiast | Cloud Practitioner</p>
+            <a href="#about" class="btn">Read my Story</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I’m a <strong>full-stack web developer</strong> skilled in <strong>HTML, CSS, JavaScript, MySQL, and
+                    PHP</strong>, focused on building <strong>scalable, modern web applications</strong> that solve
+                real-world
+                problems. I’m passionate about creating <strong>user-friendly experiences</strong> that seamlessly blend
+                <strong>functionality</strong> and <strong>design</strong>. My goal? To leverage technology to drive
+                <strong>innovation</strong> and make a meaningful impact.
+            </p>
+            <p>Currently, I’m working on a <strong>tour and travel website</strong> based in Kenya.
+                I also hold an <strong>AWS certification</strong>, enabling me to build <strong>cloud-based
+                    solutions</strong> that scale with ease. Driven by a commitment to learning and staying at the
+                forefront of
+                <strong>web development</strong> and <strong>cloud technologies</strong>, I’m always ready to push the
+                boundaries of
+                what’s possible.
+            </p>
+            <p>Beyond web development, I’m passionate about how <strong>blockchain technology</strong> can transform
+                public services
+                by boosting <strong>transparency</strong> and <strong>efficiency</strong>. If you're looking to
+                collaborate on
+                innovative projects that solve real challenges, let’s connect. Together, we can build the future of
+                digital
+                solutions!</p>
+        </div>
+    </section>
+
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="work-item">
+                <h3>ICT trainee</h3>
+                <p>State Department for Tourism | 09/2023 - 12/2023</p>
+                <ul class="work-list">
+                    <li>Designed and implemented an <strong>internal attachment portal</strong> that improved task
+                        delegation, performance monitoring, and workflow efficiency.</li>
+                    <li>Managed the department’s <strong>information systems</strong>, ensuring <strong>100% data
+                            accuracy</strong> and optimizing digital records for easy retrieval.</li>
+                    <li>Conducted <strong>data validation and cleaning</strong>, ensuring that all records were
+                        structured,
+                        error-free, and met required standards.</li>
+                    <li>Assisted in the <strong>digitization and classification</strong> of government documents,
+                        enhancing
+                        accessibility and compliance with metadata standards.</li>
+                    <li>Provided <strong>technical support and training</strong> to staff, leading to a <strong>20%
+                            improvement</strong> in system adoption and user efficiency.</li>
+                    <li>Performed <strong>data analysis</strong> to identify usage patterns and recommend optimizations
+                        for
+                        government information systems.</li>
+                </ul>
+            </div>
+            <div class="work-item">
+                <h3>Freelance Web Developer and IT Support Specialist</h3>
+                <p>Self-employed | 02/2021 - Present</p>
+                <ul class="work-list">
+                    <li>Developed and maintained <strong>responsive, database-driven websites</strong> using
+                        <strong>HTML,
+                            CSS, JavaScript, PHP, and MySQL</strong>.
+                    </li>
+                    <li>Designed <strong>information retrieval systems</strong> that improved data accessibility and
+                        searchability for clients.</li>
+                    <li>Implemented <strong>data security measures</strong>, ensuring safe storage, encryption, and
+                        access
+                        control for sensitive information.</li>
+                    <li>Optimized <strong>database performance and query execution</strong>, reducing load times and
+                        improving user experience.</li>
+                    <li>Conducted <strong>UX research and usability testing</strong>, enhancing website navigation and
+                        overall functionality.</li>
+                    <li>Worked with diverse clients, understanding their <strong>information management needs</strong>
+                        and
+                        delivering customized solutions.</li>
+                </ul>
+            </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelors of Information Science</h3>
+                <p>Technical University of Mombasa | 2020 - 2024</p>
+                <ul class="education-list">
+                    <li>Gained expertise in <strong>SQL and MySQL</strong>, learning how to design, structure, and
+                        optimize
+                        databases for efficient information retrieval and storage.
+                    </li>
+
+                    <li>Studied <strong>system analysis and design</strong>, focusing on developing scalable and secure
+                        information management systems for organizations.
+                    </li>
+
+                    <li>Acquired skills in <strong>digital archiving, metadata classification, and document
+                            preservation</strong>, ensuring long-term accessibility and compliance with information
+                        standards.
+                    </li>
+
+                    <li>Learned techniques for <strong>search optimization, indexing, and classification</strong> to
+                        improve the
+                        accessibility and accuracy of stored data.
+                    </li>
+
+                    <li>Developed skills in <strong>data structuring, validation, and visualization</strong> to support
+                        evidence-based decision-making using tools like <strong>Excel</strong>.
+                    </li>
+
+                    <li>Explored best practices for <strong>capturing, organizing, and sharing knowledge</strong>,
+                        ensuring
+                        efficient access to information within organizations.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="certifications" class="cert-section">
+        <div class="container">
+            <h2>Certifications</h2>
+        </div>
+    </section>
+    <div class="cert-container">
+        <div class="card">
+            <h4>AWS</h4>
+            <img src="images/AWS Certified Cloud Practitioner certificate.jpg" alt="AWS Certified Cloud Practitioner">
+            <div class="card-body">
+                <p><strong>Validates cloud concepts, security, and AWS services.</strong> Covers pricing, deployment,
+                    and best practices
+                    for scalable cloud solutions.</p>
+                <div class="dates">
+                    <span>Date Issued: 17/01/2025</span>
+                    <span>Expiration Date: 17/01/2028</span>
+                </div>
+                <button onclick="openModal('modal1', 'images/AWS Certified Cloud Practitioner certificate.jpg')">View
+                    Full Preview</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4>AI in the Digital Age</h4>
+            <img src="images/ALX AI Certificate.jpg" alt="AI Skills in the digital age">
+            <div class="card-body">
+                <p><strong>Enhances career growth with AI-driven productivity.</strong> Focuses on automation, digital
+                    transformation, and
+                    human-AI collaboration.</p>
+                <div class="dates">
+                    <span>Date Issued: <br> 08/08/2024</span>
+                </div>
+                <button onclick="openModal('modal2', 'images/ALX AI Certificate.jpg')">View Full Preview</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4>Professional Skills</h4>
+            <img src="images/Professional foundations Certificate.png" alt="Professional Skills in the digital Age">
+            <div class="card-body">
+                <p><strong>Builds essential workplace skills for the digital era.</strong> Covers communication,
+                    adaptability and career
+                    resilience.</p>
+                <div class="dates">
+                    <span>Date Issued: <br> 29/10/2024</span>
+                </div>
+                <button onclick="openModal('modal3', 'images/Professional foundations Certificate.png')">View Full
+                    Preview</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>AWS Certified Cloud Practitioner</h5>
+                <span class="modal-close" onclick="closeModal('modal1')">&times;</span>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>AI Skills in the Digital Age</h5>
+                <span class="modal-close" onclick="closeModal('modal2')">&times;</span>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Professional Skills</h5>
+                <span class="modal-close" onclick="closeModal('modal3')">&times;</span>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="Skills" id="skills">
+        <section class="skills-section">
+            <div class="container">
+                <h2>Core Competencies and Skills</h2>
+            </div>
+        </section>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 p-5 pb-5 custom-bg">
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Cloud Computing</h3>
+                    <p>AWS
+                        Fundamentals (EC2, S3, RDS, IAM,
+                        Cloud Architecture).</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Web Development</h3>
+                    <p>HTML, CSS,
+                        JavaScript, PHP.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Database Management</h3>
+                    <p>MySQL.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Graphic Design</h3>
+                    <p>Adobe Photoshop,
+                        Adobe InDesign, Adobe Illustrator.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Digital Content Management</h3>
+                    <p>Information Organization, Retrieval,
+                        Cataloging & Classification.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">User Experience (UX)</h3>
+                    <p>User Interface
+                        (UI) Design.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Responsive Web Design</h3>
+                    <p>Mobile-first design, UX optimization, accessibility.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">IT Support</h3>
+                    <p>Technical troubleshooting, system maintenance, security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <p>Email: <a href="mailto:david.washington.kamau@gmail.com">david.washington.kamau@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254741425185">+254741425185</a></p>
+            <ul class="social-links">
+                <li><a href="https://linkedin.com/in/davidwashingtonkamau/"><i class="fa-brands fa-linkedin"></i> <br>
+                        LinkedIn</a></li>
+                <li><a href="https://github.com/davidwashington-254"><i class="fa-brands fa-github"></i> <br> GitHub</a>
+                </li>
+            </ul>
+            <p>&copy; David Washington Kamau Kibe <br> All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d9dd6b60aa.js" crossorigin="anonymous"></script>
+    <script defer src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
