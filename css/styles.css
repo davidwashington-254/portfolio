@@ -312,6 +312,10 @@ ul li {
     color: #777;
 }
 
+.card .dates span {
+    margin: 0 10px;
+}
+
 .card button {
     background-color: #007bff;
     color: white;
